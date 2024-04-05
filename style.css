@@ -8,6 +8,7 @@ html, body {
     margin-top: 0;
     height: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -18,13 +19,17 @@ html, body {
     width: 400px;
 }
 
-.row {
+.column {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 100%;
 }
 
-.column {
+.row {
     flex: 1;
     border: 1px solid black;
+}
+
+#sizeButton {
+    
 }
