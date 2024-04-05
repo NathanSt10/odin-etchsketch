@@ -31,5 +31,13 @@ html, body {
 }
 
 #sizeButton {
-    
+    border: none;
+    border-radius: 16px;
+    padding: 25px;
+    margin-bottom: 64px;
+}
+
+#sizeButton:hover {
+    cursor: pointer;
+    border: 1px solid black;
 }

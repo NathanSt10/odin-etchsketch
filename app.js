@@ -9,6 +9,7 @@ const divBody = document.querySelector("#divBody");
 
 let changeSize = function() {
     size = prompt();
+    if (size > 100) size = 100;
     deleteGrid(size);
     buildGrid(size);
 }
